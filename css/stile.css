@@ -1,0 +1,250 @@
+.header__contayner {
+  display: flex;
+  height: 88px;
+  align-items: center;
+  align-self: stretch;
+  background: var(--primaty-grey-light, #F6F5F4);
+  box-shadow: 0px -1px 0px 0px #E0E0E0 inset;
+}
+.header__logo {
+  color: #000;
+  font-family: Dela Gothic One;
+  font-size: 20.861px;
+  font-weight: 400;
+  margin-left: 300px;
+}
+.header__text a {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #757575;
+  margin: 30px;
+  padding-top: 15px;
+}
+.header__text a__home a {
+  color: #000;
+}
+.header__text {
+  margin-left: 60px;
+}
+.header__reg {
+  display: flex;
+  margin-left: 250px;
+}
+.header__reg__user__ava {
+  display: flex;
+  padding: 9px 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+  width: 41px;
+  height: 40px;
+  border-radius: 200px;
+  background: var(--primaty-cyan-light, #C3DCE3);
+}
+.header__reg__user__ava__txt {
+  color: #2B788B;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+}
+.header__username {
+  color: #757575;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  align-items: center;
+  display: flex;
+  margin-left: 15px;
+}
+.header__btn {
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  margin-left: 30px;
+}
+
+.main__contayner {
+  display: flex;
+  background: var(--primaty-grey-light, #F6F5F4);
+}
+.main__minilogo {
+  color: var(--primaty-cyan-dark, #2B788B);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 16px */
+  letter-spacing: 2.24px;
+  text-transform: uppercase;
+  padding-top: 100px;
+  margin-left: 300px;
+}
+.main__logo {
+  font-family: Dela Gothic One;
+  font-size: 56px;
+  font-weight: 400;
+  color: var(--primaty-black, #000);
+  margin-left: 300px;
+}
+.main__opis {
+  color: var(--primaty-grey-dark, #757575);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 300px;
+}
+.main__btn {
+  display: flex;
+  padding: 14px 22px;
+  justify-content: center;
+  align-items: center;
+  width: 165px;
+  gap: 19px;
+  border-radius: 100px;
+  background: var(--primaty-cyan-light, #C3DCE3);
+  margin: 60px 0 100px 300px;
+}
+.main__btn__txt {
+  color: #2B788B;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.main__pic {
+  padding-top: 100px;
+  margin-left: 70px;
+}
+
+.title__contayner {
+  display: flex;
+  justify-content: center;
+}
+.title__pic {
+  padding-top: 222px;
+}
+.title__text {
+  padding-top: 150px;
+}
+.title__text__logo {
+  font-family: Dela Gothic One;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--primaty-black, #000);
+}
+.title__text__opis {
+  color: var(--primaty-grey-dark, #757575);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+.title__text__btn {
+  display: flex;
+  padding: 14px 22px;
+  justify-content: center;
+  align-items: center;
+  gap: 19px;
+  border-radius: 100px;
+  background: var(--primaty-cyan-light, #C3DCE3);
+  width: 129px;
+  margin-top: 60px;
+}
+.title__text__btn__txt {
+  color: var(--primaty-cyan-dark, #2B788B);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footer__contayner {
+  display: flex;
+  height: 104px;
+  align-items: center;
+  align-self: stretch;
+  background: var(--primaty-grey-light, #F6F5F4);
+  margin-top: 200px;
+}
+.footer__text {
+  display: flex;
+  color: var(--primaty-grey-dark, #757575);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+}
+.footer__text__1 {
+  margin-left: 104px;
+}
+.footer__text__2 a {
+  text-decoration: none;
+  color: var(--primaty-grey-dark, #757575);
+  margin: 0 30px;
+}
+.footer__text__2 {
+  display: flex;
+  align-items: center;
+  margin-left: 650px;
+}
+
+.reg {
+  width: 461px;
+  border: 1px solid #000;
+  margin: 0 auto;
+  height: 426px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+}
+.reg__title {
+  color: #2B788B;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  padding-top: 25px;
+}
+.reg__form {
+  width: 220px;
+  margin-left: 20px;
+}
+.reg__input {
+  display: flex;
+  width: 363px;
+  height: 70px;
+  padding-right: -20px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #C3DCE3;
+  color: #2B788B;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 30px;
+}
+.reg__btn {
+  display: flex;
+  width: 127px;
+  height: 55px;
+  padding: 14px 22px;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: var(--primaty-cyan-dark, #2B788B);
+  margin-left: 30px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+}
